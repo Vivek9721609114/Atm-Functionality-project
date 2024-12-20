@@ -1,0 +1,126 @@
+.atm {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 0px 384px;
+}
+.atm-screen {
+    margin: 50px 0px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .atm {
+        display: flex;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0px 384px;
+    }
+    .atm-screen {
+        margin: 50px 0px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 10px;
+    }
+
+}
+
+
+
+@media (min-width: 767px) and (max-width: 992px){
+    .atm {
+        display: flex;
+    }
+    
+    .container {
+        width: 60%;
+        margin: 0px 384px;
+    }
+    .atm-screen {
+        margin: 50px 0px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 10px;
+    }
+
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 767px){
+    .atm {
+        display: flex;
+    }
+    
+    .container {
+        width: 50%;
+        margin: 0px 384px;
+    }
+    .atm-screen {
+        margin: 50px 0px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 10px;
+    }
+
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 480px){
+    .atm {
+        display: flex;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px 384px;
+    }
+    .atm-screen {
+        margin: 50px 0px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 10px;
+        flex-direction: column ;
+    }
+
+    .pin-heading{
+        font-size: 10px !important;
+    }
+
+
+}
+
+
+
